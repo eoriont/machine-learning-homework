@@ -3,7 +3,6 @@ import timeit
 def f(x, y):
     return 1 + 2*x**2 + 3*y**2
 
-# def gradient_descent(alpha, f, delta, max_iters):
 def gradient_descent():
     # Arguments
     alpha = 0.0001
